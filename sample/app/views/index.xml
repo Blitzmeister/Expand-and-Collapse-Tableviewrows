@@ -1,0 +1,25 @@
+<Alloy>
+	<Window>
+		<TableView id="tblView" top="20">
+			<TableViewSection  id="sectionOne">
+				<TableViewRow  id="firstname">
+					<Label left="5" text="Firstname"></Label>
+					<TextField left="120" value="Charlotte"></TextField>
+				</TableViewRow>
+				<TableViewRow id="lastname">
+					<Label left="5" text="Lastname"></Label>
+					<TextField left="120" value="Cooper"></TextField>
+				</TableViewRow>
+				<TableViewRow id="email">
+					<Label left="5" text="E-Mail"></Label>
+					<TextField left="120" value="c.cooper@subways.com"></TextField>
+				</TableViewRow>							
+			</TableViewSection>
+			<TableViewSection id="sectionTwo">
+				<TableViewRow>
+					<Switch onChange="doToggle" value="false"></Switch>
+				</TableViewRow>
+			</TableViewSection>
+		</TableView>
+	</Window>
+</Alloy>
